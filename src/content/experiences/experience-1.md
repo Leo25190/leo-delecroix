@@ -1,16 +1,24 @@
 ---
-title: Web Development Intern
-description: Created a dynamic object model for flexible, reusable Blazor components that automates display, sorting, and filtering while enabling easy parameter adjustments and reducing repetitive coding for improved scalability.
-startDate: 'Jun 2024'
-endDate: 'Aug 2024'
-city: Roubaix
-company: Divotiz
-isFeatured: true
+title: Production Line Intern
+description: Assisted in the efficient operation of production lines, implemented a new palletization system, and conducted quality inspections to enhance productivity and maintain high standards at Lesaffre.
+startDate: '14 Feb 2022'
+endDate: '15 Apr 2022'
+city: Marcq-en-Baroeul, France
+company: Lesaffre
+isFeatured: false
 ---
 
-**Dynamic View Model Design and Implementation:**
+**Line Operation Assistance:**
 
-- Designed and developed a dynamic object model for flexible, reusable Blazor components with minimal configuration.
-- Automated functionalities including page display, sorting, and filtering.
-- Enabled easy parameter adjustments (e.g., page size, column order).
-- Reduced repetitive coding, improved scalability, and streamlined development efficiency.
+- Collaborated in the efficient operation of production lines, troubleshooting issues and maintaining uninterrupted processes.
+- Contributed to optimizing line performance, increasing productivity, and driving overall efficiency.
+
+**Implementation of a New Palletization System:**
+
+- Played a critical role in the implementation of a new palletization system.
+- Managed tasks involving setup, testing, and integration of the new process, enhancing the workflow and reducing turnaround time.
+
+**Line Inspections and Quality Control:**
+
+- Conducted comprehensive quality controls on production lines to ensure high product standards.
+- Implemented inspection protocols to uphold quality assurance standards and minimize inconsistencies.

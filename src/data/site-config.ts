@@ -54,6 +54,10 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
+            text: 'Experiences',
+            href: '/experiences'
+        },
+        {
             text: 'Projects',
             href: '/projects'
         },
