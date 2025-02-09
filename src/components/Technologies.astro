@@ -1,0 +1,18 @@
+---
+import { technologies } from '../data/technologies.ts';
+
+const { class: className } = Astro.props;
+---
+
+<div class:list={['grid grid-cols-6 sm:grid-cols-8 gap-2 sm:gap-4', className]}>
+    {
+        technologies.map((tech) => (
+            <a href={tech.url} target="_blank" rel="noopener noreferrer" class="relative group aspect-square flex items-center justify-center">
+                <img src={tech.logo} alt={tech.name} class="h-full w-12 sm:w-24 object-contain transition-transform duration-100 group-hover:scale-125" />
+                <span class="absolute top-[-1rem] bg-accent text-main text-sm px-2 py-1 rounded pointer-events-none opacity-0 transition-opacity duration-100 group-hover:opacity-100">
+                    {tech.name}
+                </span>
+            </a>
+        ))
+    }
+</div>

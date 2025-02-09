@@ -1,0 +1,10 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import siteConfig from '../data/site-config';
+import TechnologiesComponent from '../components/Technologies.astro';
+---
+
+<BaseLayout description={siteConfig.description} image={siteConfig.image} showHeader={true} title="Technologies">
+    <TechnologiesComponent />
+</BaseLayout>
