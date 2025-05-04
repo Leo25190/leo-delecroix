@@ -3,7 +3,7 @@ import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Button from '../../components/Button.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
-// import experiencePreview from '../../components/experiencePreview.astro';
+import ExperiencePreview from '../../components/ExperiencePreview.astro';
 import Subscribe from '../../components/Subscribe.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 import { slugify } from '../../utils/common-utils';
@@ -67,8 +67,8 @@ const { Content } = await render(experience);
         (prevexperience || nextexperience) && (
             <div class="my-16 sm:my-24">
                 <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Read Next</h2>
-                {nextexperience && <experiencePreview experience={nextexperience} class="mb-10 sm:mb-12" headingLevel="h3" />}
-                {prevexperience && <experiencePreview experience={prevexperience} class="mb-10 sm:mb-12" headingLevel="h3" />}
+                {nextexperience && <ExperiencePreview experience={nextexperience} class="mb-10 sm:mb-12" headingLevel="h3" />}
+                {prevexperience && <ExperiencePreview experience={prevexperience} class="mb-10 sm:mb-12" headingLevel="h3" />}
             </div>
         )
     }
